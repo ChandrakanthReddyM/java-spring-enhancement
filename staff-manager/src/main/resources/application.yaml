@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: staff-manager
+  
+server:
+  port: 8091
