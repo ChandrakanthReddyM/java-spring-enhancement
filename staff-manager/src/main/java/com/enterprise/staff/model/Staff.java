@@ -2,7 +2,7 @@ package com.enterprise.staff.model;
 
 public class Staff {
 	
-	private String id;
+	private int id;
 	private String firstName;
 	private String lastName;
 	private Address address;
@@ -10,7 +10,7 @@ public class Staff {
 	
 	
 	
-	public Staff(String id, String firstName, String lastName, Address address, Contact contact) {
+	public Staff(int id, String firstName, String lastName, Address address, Contact contact) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
@@ -27,10 +27,10 @@ public class Staff {
 
 
 
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getFirstName() {
